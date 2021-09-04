@@ -32,11 +32,11 @@ ul li {
     left: 0;
     right: 0;
 }
-.sp-typing-height {
+.sp-typing-height1 {
     height: 65vh;
 }
 @media (max-width: 990px) {
-    .sp-typing-height
+    .sp-typing-height1
       {
           height: 25vh;
       }
