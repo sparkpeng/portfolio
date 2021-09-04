@@ -32,11 +32,15 @@ ul li {
     left: 0;
     right: 0;
 }
-.sp-typing-height1 {
-    height: 65vh!important;
+
+@media (min-width: 991px) {
+    .sp-type-height 
+     {
+        height: 65vh!important;
+     }
 }
 @media (max-width: 990px) {
-    .sp-typing-height1
+    .sp-type-height
       {
           height: 25vh!important;
       }
