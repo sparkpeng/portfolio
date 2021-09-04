@@ -32,7 +32,10 @@ ul li {
     left: 0;
     right: 0;
 }
-
+.sp-type-height 
+     {
+        height: 66vh;
+     }
 @media (min-width: 991px) {
     .sp-type-height 
      {
