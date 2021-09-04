@@ -32,7 +32,15 @@ ul li {
     left: 0;
     right: 0;
 }
-
+.sp-typing-height {
+    height: 65vh;
+}
+@media (max-width: 990px) {
+    .sp-typing-height
+      {
+          height: 25vh;
+      }
+}
 @media (max-width: 767px) {
     .navbar-collapse
       {
@@ -51,6 +59,15 @@ ul li {
       {
           font-size: 6em!important;
       }
+    
+  }
+
+  @media (max-width: 575px) {
+    .sp-btn-rwd1
+        {
+            text-align: center;
+        }
+    
   }
 
   @media (min-width: 768px) {
@@ -61,6 +78,10 @@ ul li {
     .sp-card-size img
         {
             min-height: 150px;
+        }
+    .sp-btn-rwd1
+        {
+            text-align: left!important;
         }
 
   }
@@ -91,6 +112,20 @@ ul li {
     background: #E35A56;
 }
 
+.sp-btn-primary {
+    background: #74B49D;
+}
+
+.sp-btn-second {
+    background: #E35A56;
+ }
+
+.sp-btn-second:hover,.sp-btn-primary:hover {
+    filter: brightness(1.2);
+ }
+.sp-btn-second:active,.sp-btn-primary:active {
+    filter: brightness(0.85);
+ }
 .sp-project-bd {
 border: 5px solid #74B49D;
 }
@@ -178,9 +213,7 @@ border: 5px solid #74B49D;
     top: 40px;
     left: 100px;
 } 
-.sp-bg-green {
-    background-color: #74b49e;
-}
+
 .wrapper {
 /*This part is important for centering*/
 display: flex;
