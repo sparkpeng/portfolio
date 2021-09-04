@@ -35,6 +35,7 @@ ul li {
 .sp-type-height 
      {
         height: 66vh;
+        background: #E35A56;
      }
 @media (min-width: 991px) {
     .sp-type-height 
